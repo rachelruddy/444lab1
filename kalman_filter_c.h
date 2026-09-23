@@ -11,5 +11,6 @@
 #include "kalman_filter.h"
 
 void kalman_c(kalman_state* state, float measurement);
+int Kalmanfilter_c(float* InputArray, float* OutputArray, kalman_state* kstate, int Length);
 
 #endif /* INC_KALMAN_FILTER_C_H_ */
